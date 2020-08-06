@@ -4,8 +4,13 @@ import avatar from 'assets/david_avatar.png';
 import { Spacer } from 'helpers/spacer';
 import { Avatar } from 'components/avatar';
 import { Button } from 'helpers/button';
+import { useRouter } from 'components/context';
+import { Technologies } from 'components/technologies';
+import { Routes } from 'components/app';
 
 export function Home() {
+	const { onDidNavigate } = useRouter();
+
 	return (
 		<div className={styles.container}>
 			<Spacer left="5vw"></Spacer>
@@ -18,7 +23,7 @@ export function Home() {
 				<Button
 					className={styles.navBarItem}
 					title="Technologies"
-					onClick={() => {}}
+					onClick={() => onDidNavigate(Routes.Technologies)}
 				></Button>
 				<Button
 					className={styles.navBarItem}
