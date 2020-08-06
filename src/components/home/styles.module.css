@@ -26,18 +26,11 @@
     padding: 32px;
 }
 
-.spacer {
-    padding-left: 5vw;
-}
-
-.spacer2 {
-    padding-left: 10vw;
-}
-
 .content_item {
     margin: 32px;
-    flex-shrink: 1;
+    flex-shrink: 0;
     max-height: 300px;
     max-width: 200px;
     background-color: darkcyan;
+    text-align: center;
 }
