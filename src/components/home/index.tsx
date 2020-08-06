@@ -3,15 +3,28 @@ import styles from './styles.module.css';
 import avatar from 'assets/david_avatar.png';
 import { Spacer } from 'helpers/spacer';
 import { Avatar } from 'components/avatar';
+import { Button } from 'helpers/button';
 
 export function Home() {
 	return (
 		<div className={styles.container}>
 			<Spacer left="5vw"></Spacer>
 			<div className={styles.navBar}>
-				<div className={styles.navBarItem}>Home</div>
-				<div className={styles.navBarItem}>Technologies</div>
-				<div className={styles.navBarItem}>Career</div>
+				<Button
+					className={styles.navBarItem}
+					title="Home"
+					onClick={() => {}}
+				></Button>
+				<Button
+					className={styles.navBarItem}
+					title="Technologies"
+					onClick={() => {}}
+				></Button>
+				<Button
+					className={styles.navBarItem}
+					title="Career"
+					onClick={() => {}}
+				></Button>
 			</div>
 			<Spacer left="10vw"></Spacer>
 			<div className={styles.main_content_container}>
@@ -27,10 +40,9 @@ export function Home() {
 				</div>
 				<div className={styles.content_item}>
 					<Spacer top="30%" bottom="30%" left="10%" right="10%">
-						<p>
-							Additonal Contact info dsj sdgjhgsd jhgdjs hgjshgds jhjhsgj
-							dgshjgdshgdjshsdgj hsgdjdsgh jsdghs jshg
-						</p>
+						<p>halapir.david@gmail.com</p>
+						<p>+ 385 95 908 6540</p>
+						<p>51 000 Rijeka, Croatia</p>
 					</Spacer>
 				</div>
 			</div>
