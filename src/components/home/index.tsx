@@ -5,7 +5,6 @@ import { Spacer } from 'helpers/spacer';
 import { Avatar } from 'components/avatar';
 import { Button } from 'helpers/button';
 import { useRouter } from 'components/context';
-import { Technologies } from 'components/technologies';
 import { Routes } from 'components/app';
 
 export function Home() {
@@ -18,7 +17,7 @@ export function Home() {
 				<Button
 					className={styles.navBarItem}
 					title="Home"
-					onClick={() => {}}
+					onClick={() => onDidNavigate(Routes.Home)}
 				></Button>
 				<Button
 					className={styles.navBarItem}
@@ -28,7 +27,7 @@ export function Home() {
 				<Button
 					className={styles.navBarItem}
 					title="Career"
-					onClick={() => {}}
+					onClick={() => onDidNavigate(Routes.Career)}
 				></Button>
 			</div>
 			<Spacer left="10vw"></Spacer>

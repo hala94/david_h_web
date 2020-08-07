@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Home } from 'components/home';
 import { RouterContext } from 'components/context';
 import { Technologies } from 'components/technologies';
