@@ -12,25 +12,6 @@ export function Home() {
 
 	return (
 		<div className={styles.container}>
-			<Spacer left="5vw"></Spacer>
-			<div className={styles.navBar}>
-				<Button
-					className={styles.navBarItem}
-					title="Home"
-					onClick={() => onDidNavigate(Routes.Home)}
-				></Button>
-				<Button
-					className={styles.navBarItem}
-					title="Technologies"
-					onClick={() => onDidNavigate(Routes.Technologies)}
-				></Button>
-				<Button
-					className={styles.navBarItem}
-					title="Career"
-					onClick={() => onDidNavigate(Routes.Career)}
-				></Button>
-			</div>
-			<Spacer left="10vw"></Spacer>
 			<div className={styles.main_content_container}>
 				<div className={styles.content_item}>
 					<Spacer top="30%"></Spacer>

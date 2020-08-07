@@ -4,6 +4,9 @@ import { RouterContext } from 'components/context';
 import { Technologies } from 'components/technologies';
 import { Carrer } from 'components/career';
 
+import { NavigationBar } from 'components/navigationBar';
+import { NavigationItem } from 'components/navigationItem';
+
 export function App() {
 	const [route, setRoute] = useState<Routes>(Routes.Home);
 
@@ -17,9 +20,23 @@ export function App() {
 	};
 
 	return (
-		<RouterContext.Provider value={{ onDidNavigate: didSelectNavBarItem }}>
+		<div>
+			<NavigationBar>
+				<NavigationItem
+					title={Routes.Home}
+					onClick={didSelectNavBarItem}
+				></NavigationItem>
+				<NavigationItem
+					title={Routes.Technologies}
+					onClick={didSelectNavBarItem}
+				></NavigationItem>
+				<NavigationItem
+					title={Routes.Career}
+					onClick={didSelectNavBarItem}
+				></NavigationItem>
+			</NavigationBar>
 			<Selection></Selection>
-		</RouterContext.Provider>
+		</div>
 	);
 }
 
