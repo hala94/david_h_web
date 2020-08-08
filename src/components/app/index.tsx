@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Home } from 'components/home';
-import { RouterContext } from 'components/context';
-import { Technologies } from 'components/technologies';
 import { Carrer } from 'components/career';
-
+import { Home } from 'components/home';
 import { NavigationBar } from 'components/navigationBar';
 import { NavigationItem } from 'components/navigationItem';
+import { Technologies } from 'components/technologies';
+import React, { useState } from 'react';
 
 export function App() {
 	const [route, setRoute] = useState<Routes>(Routes.Home);
@@ -40,7 +38,7 @@ export function App() {
 	);
 }
 
-// Kako sazet u jedno
+// Ovo poboljsat
 export enum Routes {
 	Home = 'Home',
 	Technologies = 'Technologies',

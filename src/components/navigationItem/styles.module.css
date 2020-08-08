@@ -1,0 +1,27 @@
+.navigation_item {
+	cursor: default;
+	text-align: center;
+	border: none;
+	background: none;
+	position: relative; /* enables the absolute positioning of the underline element */
+	overflow: hidden; /* crops the underline element to bounds of the button */
+}
+
+.navigation_item:focus {
+	outline: none;
+}
+
+.underline {
+	position: absolute;
+	height: 2px;
+	width: 0%;
+	left: 10px; /* this corresponds to button padding locked to 10px in style */
+	right: 0%;
+	background-color: coral;
+	transition: 0.2s ease all;
+}
+
+.navigation_item:hover .underline {
+	width: 100%;
+	transition: 0.3s ease all;
+}

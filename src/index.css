@@ -1,16 +1,20 @@
 body {
-  margin: 0;
-  font-family: 'Monteserrat' ,-apple-system, BlinkMacSystemFont, 'sans-serif';
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+button {
+	font-family: inherit;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
 
 #root {
-  height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
 }
