@@ -14,9 +14,8 @@ import { Font, FontType } from 'components/fonts';
 export function Home() {
 	return (
 		<div className={styles.container}>
-			<Font fontType={FontType.headline1}>Hello</Font>
-			<p>hello, i'm david halapir</p>
-			<p>MOBILE & FRONTEND DEVELOPER</p>
+			<Font fontType={FontType.headline1}>hello, I'm david halapir</Font>
+			<Font fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
 		</div>
 	);
 }
