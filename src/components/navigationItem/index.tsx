@@ -4,7 +4,9 @@ import styles from './styles.module.css';
 
 export const NavigationItem = ({ className, title, onClick }: Props) => {
 	const itemStyle: CSSProperties = {
-		margin: '10px',
+		marginLeft: '30px',
+		marginTop: "5px",
+		marginBottom: "5px",
 		padding: '10px',
 		display: 'border-box',
 	};
