@@ -5,8 +5,8 @@ import styles from './styles.module.css';
 export const NavigationItem = ({ className, title, onClick }: Props) => {
 	const itemStyle: CSSProperties = {
 		marginLeft: '30px',
-		marginTop: "5px",
-		marginBottom: "5px",
+		marginTop: '5px',
+		marginBottom: '5px',
 		padding: '10px',
 		display: 'border-box',
 	};
