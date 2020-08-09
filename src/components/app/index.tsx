@@ -5,6 +5,18 @@ import { NavigationItem } from 'components/navigationItem';
 import { Technologies } from 'components/technologies';
 import React, { useState } from 'react';
 
+// Ovo poboljsat
+export enum Routes {
+	Home = 'Home',
+	Technologies = 'Technologies',
+	Career = 'Carreer',
+}
+export const routes = {
+	Home: Home,
+	Technologies: Technologies,
+	Carreer: Carrer,
+};
+
 export function App() {
 	const [route, setRoute] = useState<Routes>(Routes.Home);
 
@@ -37,15 +49,3 @@ export function App() {
 		</div>
 	);
 }
-
-// Ovo poboljsat
-export enum Routes {
-	Home = 'Home',
-	Technologies = 'Technologies',
-	Career = 'Carreer',
-}
-export const routes = {
-	Home: Home,
-	Technologies: Technologies,
-	Carreer: Carrer,
-};

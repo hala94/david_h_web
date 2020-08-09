@@ -1,7 +1,5 @@
-import React, { createContext } from 'react';
+import React from 'react';
 
 export function Technologies() {
-	return(
-		<div>tehnologije</div>
-	);
+	return <div>tehnologije</div>;
 }

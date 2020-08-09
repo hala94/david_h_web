@@ -1,4 +1,4 @@
-import React, { createContext, Component, CSSProperties } from 'react';
+import React, { CSSProperties } from 'react';
 import { Props } from 'interfaces/Props';
 import styles from './styles.module.css';
 

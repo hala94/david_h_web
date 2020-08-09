@@ -1,9 +1,7 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import styles from './styles.module.css';
-import avatar from 'assets/david_avatar.png';
-import { Spacer } from 'helpers/spacer';
-import { Avatar } from 'components/avatar';
-import { Font, FontType } from 'components/fonts';
+import { Font, FontType } from 'helpers/fonts';
+import { Asset } from 'helpers/asset';
 
 /*
 - fonts
@@ -16,6 +14,7 @@ export function Home() {
 		<div className={styles.container}>
 			<Font fontType={FontType.headline1}>hello, I'm david halapir</Font>
 			<Font fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
+			<Asset name="david_avatar"></Asset>
 		</div>
 	);
 }

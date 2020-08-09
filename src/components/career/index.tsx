@@ -1,7 +1,5 @@
-import React, { createContext } from 'react';
+import React from 'react';
 
 export function Carrer() {
-	return(
-		<div>Karijera</div>
-	);
+	return <div>Karijera</div>;
 }
