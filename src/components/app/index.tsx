@@ -4,6 +4,7 @@ import { NavigationBar } from 'components/navigationBar';
 import { NavigationItem } from 'components/navigationItem';
 import { Technologies } from 'components/technologies';
 import React, { useState } from 'react';
+import styles from './styles.module.css';
 
 // Ovo poboljsat
 export enum Routes {
@@ -33,14 +34,17 @@ export function App() {
 		<div>
 			<NavigationBar>
 				<NavigationItem
+					className={styles.nav_item}
 					title={Routes.Home}
 					onClick={didSelectNavBarItem}
 				></NavigationItem>
 				<NavigationItem
+					className={styles.nav_item}
 					title={Routes.Technologies}
 					onClick={didSelectNavBarItem}
 				></NavigationItem>
 				<NavigationItem
+					className={styles.nav_item}
 					title={Routes.Career}
 					onClick={didSelectNavBarItem}
 				></NavigationItem>

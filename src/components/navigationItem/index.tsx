@@ -1,21 +1,12 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import { Props } from 'interfaces/Props';
 import styles from './styles.module.css';
 
 export const NavigationItem = ({ className, title, onClick }: Props) => {
-	const itemStyle: CSSProperties = {
-		marginLeft: '30px',
-		marginTop: '5px',
-		marginBottom: '5px',
-		padding: '10px',
-		display: 'border-box',
-	};
-
 	return (
 		<div>
 			<button
 				className={`${styles.navigation_item} ${className}`}
-				style={itemStyle}
 				value={title}
 				onClick={() => {
 					onClick(title); // Title is used as an ID here
