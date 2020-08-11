@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { Props } from 'interfaces/Props';
 
-export const Asset = ({ name }: { name: string }) => {
-	const [imgSrc, setimgSrc] = useState<string>('');
+export const Asset = ({ className, name }: Props) => {
+	const [imgSrc, setimgSrc] = useState<string | undefined>(undefined);
 
 	// Ensure asset is loaded only once per component mount
 	useEffect(() => {
-        console.log("called")
+		console.log('called');
 		import(`assets/${name}.png`)
 			.then((module) => {
 				setimgSrc(module.default);
@@ -16,5 +17,9 @@ export const Asset = ({ name }: { name: string }) => {
 		return () => {};
 	}, [name]);
 
-	return <img src={imgSrc} alt="Avatar"></img>;
+	return imgSrc ? (
+		<img className={className} src={imgSrc} alt={name}></img>
+	) : (
+		<div></div>
+	);
 };
