@@ -14,7 +14,7 @@ export function Home() {
 		<div className={styles.container}>
 			<Font fontType={FontType.headline1}>hello, I'm david halapir</Font>
 			<Font fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
-			<Asset name="david_avatar"></Asset>
+			<Asset className={styles.avatar} name="david_avatar"></Asset>
 		</div>
 	);
 }
