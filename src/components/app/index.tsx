@@ -33,6 +33,11 @@ export function App() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.content_container}>
+				{/* <div className={styles.column_container}>
+					<div className={styles.colored_column_container}>
+						<div className={styles.colored_column}></div>
+					</div>
+				</div> */}
 				<NavigationBar className={styles.navigation_bar}>
 					<NavigationItem
 						className={styles.nav_item}
