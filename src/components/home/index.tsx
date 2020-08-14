@@ -5,8 +5,9 @@ import { Asset } from 'helpers/asset';
 
 /*
 - fonts
-- spacing, sve razmake unutar designa vuc iz jednog fajla - design system showcase
+- spacing, sve razmake unutar designa vuc iz jednog fajla - design system showcase + 12 column za adaptive, vidjet s meisterom
 - useMedia + mobile
+- em, rem vidjet i mozda ovisno o tome napravit
 - screen transitions
 */
 export function Home() {
