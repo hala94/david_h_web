@@ -31,25 +31,27 @@ export function App() {
 	};
 
 	return (
-		<div>
-			<NavigationBar>
-				<NavigationItem
-					className={styles.nav_item}
-					title={Routes.Home}
-					onClick={didSelectNavBarItem}
-				></NavigationItem>
-				<NavigationItem
-					className={styles.nav_item}
-					title={Routes.Technologies}
-					onClick={didSelectNavBarItem}
-				></NavigationItem>
-				<NavigationItem
-					className={styles.nav_item}
-					title={Routes.Career}
-					onClick={didSelectNavBarItem}
-				></NavigationItem>
-			</NavigationBar>
-			<Selection></Selection>
+		<div className={styles.container}>
+			<div className={styles.content_container}>
+				<NavigationBar className={styles.navigation_bar}>
+					<NavigationItem
+						className={styles.nav_item}
+						title={Routes.Home}
+						onClick={didSelectNavBarItem}
+					></NavigationItem>
+					<NavigationItem
+						className={styles.nav_item}
+						title={Routes.Technologies}
+						onClick={didSelectNavBarItem}
+					></NavigationItem>
+					<NavigationItem
+						className={styles.nav_item}
+						title={Routes.Career}
+						onClick={didSelectNavBarItem}
+					></NavigationItem>
+				</NavigationBar>
+				<Selection></Selection>
+			</div>
 		</div>
 	);
 }
