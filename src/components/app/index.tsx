@@ -5,6 +5,7 @@ import { NavigationItem } from 'components/navigationItem';
 import { Technologies } from 'components/technologies';
 import React, { useState } from 'react';
 import styles from './styles.module.css';
+import { Spacer } from 'helpers/spacer';
 
 // Ovo poboljsat
 export enum Routes {
@@ -38,6 +39,7 @@ export function App() {
 						<div className={styles.colored_column}></div>
 					</div>
 				</div> */}
+				<Spacer top={32}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>
 					<NavigationItem
 						className={styles.nav_item}

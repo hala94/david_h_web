@@ -27,6 +27,7 @@ The new value is added to the enum and getFontStyle method is updated.
 export enum FontType {
 	headline1 = 'headline1',
 	headline2 = 'headline2',
+	navItem = 'navigationItem',
 }
 
 const getFontStyle = (identifier: FontType): string => {
@@ -36,6 +37,9 @@ const getFontStyle = (identifier: FontType): string => {
 		}
 		case FontType.headline2: {
 			return styles.headline2;
+		}
+		case FontType.navItem: {
+			return styles.navItem;
 		}
 	}
 };
