@@ -40,23 +40,37 @@
 
 .colored_column {
 	position: absolute;
-    background-color:black;
-    width: 100%;
-    bottom: 0%;
-    height: 90%;
-    animation-duration: 1.5s;
-    animation-name: slideInFromBelow;
-    animation-timing-function: ease-in-out;
+	background-color: black;
+	width: 100%;
+	bottom: 0%;
+	height: 90%;
+	animation-duration: 1.5s;
+	animation-name: slideInFromBelow;
+	animation-timing-function: ease-in-out;
 }
 
 @keyframes slideInFromBelow {
 	0% {
-        height: 0%;
-
+		height: 0%;
 	}
 	100% {
-        height: 90%;
+		height: 90%;
 	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	animation-duration: 0.25s;
+	animation-name: fadeIn;
+	animation-timing-function: ease-in-out;
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,9 +80,9 @@
 
 	.colored_column_container {
 		grid-column: 2 / 4;
-    }
-    
-    .navigation_bar {
-        justify-content: center;
-    }
+	}
+
+	.navigation_bar {
+		justify-content: center;
+	}
 }

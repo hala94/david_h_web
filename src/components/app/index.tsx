@@ -28,7 +28,11 @@ export function App() {
 
 	const Selection = () => {
 		const Component = routes[route] as () => JSX.Element;
-		return <Component></Component>;
+		return (
+			<div className={styles.fadeIn}>
+				<Component></Component>
+			</div>
+		);
 	};
 
 	return (
