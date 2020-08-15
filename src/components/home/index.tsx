@@ -18,6 +18,7 @@ export function Home() {
 			<div className={styles.headline_container}>
 				<div className={styles.headline_item}>
 					<Font fontType={FontType.headline1}>hello, I'm david halapir</Font>
+					<Spacer top={10}></Spacer>
 					<Font fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
 				</div>
 			</div>
