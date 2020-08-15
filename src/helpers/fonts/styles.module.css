@@ -29,3 +29,14 @@
 	line-height: 0.88;
 	color: #ada4a4;
 }
+
+.techItem {
+	font-size: 21px;
+	font-style: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 8px;
+	font-weight: 600;
+	line-height: 0.88;
+	color: black;
+}

@@ -1,0 +1,13 @@
+.technology_item {
+    margin-bottom: 20px;
+    padding: 16px;
+    text-align: center;
+    transition: 0.4s ease all;
+    cursor: default;
+}
+
+.technology_item:hover {
+	letter-spacing: 16px;
+	transition: 0.2s ease all;
+}
+
