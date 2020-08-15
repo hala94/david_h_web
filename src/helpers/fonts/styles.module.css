@@ -40,3 +40,14 @@
 	line-height: 0.88;
 	color: black;
 }
+
+.buttonItem {
+	font-size: calc(1rem + 0.2vw);
+	font-style: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 4px;
+	font-weight: 400;
+	line-height: 0.6;
+	color: white;
+}

@@ -1,10 +1,11 @@
 import React, { CSSProperties } from 'react';
 import { Props } from 'interfaces/Props';
+import { Font, FontType } from 'helpers/fonts';
 
 export const Button = ({ className, title, onClick }: Props) => {
 	return (
 		<button className={className} onClick={onClick}>
-			{title}
+			<Font fontType={FontType.button}>{title}</Font>
 		</button>
 	);
 };

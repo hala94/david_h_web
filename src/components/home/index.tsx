@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import { Font, FontType } from 'helpers/fonts';
 import { Asset } from 'helpers/asset';
 import { Spacer } from 'helpers/spacer';
+import { Button } from 'components/button';
 
 /*
 - fonts
@@ -12,6 +13,9 @@ import { Spacer } from 'helpers/spacer';
 - screen transitions
 */
 export function Home() {
+	const letsTalkHandler = () => {
+		window.location.href = 'mailto:halapir.david@gmail.com';
+	};
 	return (
 		<div className={styles.container}>
 			<Spacer top={120}></Spacer>
@@ -26,6 +30,12 @@ export function Home() {
 			<div className={styles.avatar_container}>
 				<Asset className={styles.avatar_item} name="david_avatar"></Asset>
 			</div>
+			<Spacer bottom={64}></Spacer>
+			<Button
+				className={styles.button_item}
+				title="lets talk"
+				onClick={letsTalkHandler}
+			></Button>
 			<Spacer bottom={120}></Spacer>
 		</div>
 	);

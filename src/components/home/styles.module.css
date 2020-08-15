@@ -20,9 +20,25 @@
 }
 
 .avatar_item {
-	max-height: 496px;
+	max-height: 396px;
 	object-fit: cover;
 	grid-column: 6 / 10;
+}
+
+.button_item {
+	display: inline-block;
+	padding: 20px 30px;
+	background-color: black;
+	border: none;
+	align-self: center;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s ease all;
+}
+
+.button_item:hover {
+	transform: scale(0.95);
+	transition: 0.2s ease all;
 }
 
 @media only screen and (max-width: 600px) {
@@ -33,7 +49,7 @@
 	}
 
 	.avatar_item {
-		width: 70%;
+		width: 50%;
 		/* grid-column: 4 / 7; */
 	}
 

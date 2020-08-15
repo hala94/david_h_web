@@ -29,6 +29,7 @@ export enum FontType {
 	headline2 = 'headline2',
 	navItem = 'navigationItem',
 	technologyItem = 'technologyItem',
+	button = 'button',
 }
 
 const getFontStyle = (identifier: FontType): string => {
@@ -44,6 +45,9 @@ const getFontStyle = (identifier: FontType): string => {
 		}
 		case FontType.technologyItem: {
 			return styles.techItem;
+		}
+		case FontType.button: {
+			return styles.buttonItem;
 		}
 	}
 };
