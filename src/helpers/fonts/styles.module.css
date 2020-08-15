@@ -1,5 +1,5 @@
 .headline1 {
-	font-size: 48px;
+	font-size: calc(2rem + 1.4vw);
 	font-style: regular;
 	font-stretch: normal;
 	font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 .headline2 {
-	font-size: 18px;
+	font-size: calc(1.2rem + 0.4vw);
 	font-style: normal;
 	font-stretch: normal;
 	font-style: normal;
@@ -20,7 +20,7 @@
 }
 
 .navItem {
-	font-size: 21px;
+	font-size: calc(1rem + 0.4vw);
 	font-style: normal;
 	font-stretch: normal;
 	font-style: normal;
@@ -31,7 +31,7 @@
 }
 
 .techItem {
-	font-size: 21px;
+	font-size: calc(1.2rem + 0.2vw);
 	font-style: normal;
 	font-stretch: normal;
 	font-style: normal;
