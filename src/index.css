@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
 	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 }
 
 button {
@@ -14,14 +15,13 @@ code {
 }
 
 p {
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
 #root {
 	height: 100vh;
 	width: 100vw;
-	overflow-x: hidden;
 }

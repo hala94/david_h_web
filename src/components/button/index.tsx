@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import { Props } from 'interfaces/Props';
 import { Font, FontType } from 'helpers/fonts';
 
