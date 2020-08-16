@@ -3,6 +3,11 @@
 	justify-content: center;
 	width: 100%;
 	min-height: 100vh;
+	position: relative;
+}
+
+:root {
+	--animation_background_size: 300%;
 }
 
 .content_container {
@@ -10,7 +15,6 @@
 	flex-direction: column;
 	width: 100%;
 	max-width: 960px;
-	position: relative;
 }
 
 .navigation_bar {
@@ -87,4 +91,41 @@
 	.navigation_bar {
 		justify-content: center;
 	}
+
+	:root {
+		--animation_background_size: 200%;
+	}
 }
+
+
+
+.slanted_background {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	bottom: 0%;
+	width: 100%;
+	background-image: linear-gradient(50deg, #0e4455 70%, white calc(70% + 1px));
+	background-size: 100% var(--animation_background_size);
+	background-position: 0% 0%;
+	z-index: -4;
+}
+ 
+
+
+.background_animation {
+	animation: animatedBackground1 25s ease-in-out forwards;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animatedBackground1 {
+	from {
+		background-position: auto;
+	}
+	to {
+		background-position: 0% 15%;
+	}
+}
+
+

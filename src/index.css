@@ -3,6 +3,7 @@ body {
 	font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
+	position: relative;
 }
 
 button {
@@ -22,6 +23,16 @@ p {
 }
 
 #root {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100vw;
+}
+
+#portal-root {
+	min-height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
 }

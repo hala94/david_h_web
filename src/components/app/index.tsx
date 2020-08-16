@@ -37,12 +37,10 @@ export function App() {
 
 	return (
 		<div className={styles.container}>
+			<div
+				className={`${styles.slanted_background} ${styles.background_animation}`}
+			></div>
 			<div className={styles.content_container}>
-				{/* <div className={styles.column_container}>
-					<div className={styles.colored_column_container}>
-						<div className={styles.colored_column}></div>
-					</div>
-				</div> */}
 				<Spacer top={32}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>
 					<NavigationItem

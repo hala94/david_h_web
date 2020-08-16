@@ -28,7 +28,7 @@ export function Home() {
 			</div>
 			<Spacer top={64}></Spacer>
 			<div className={styles.avatar_container}>
-				<Asset className={styles.avatar_item} name="david_avatar"></Asset>
+				{/* <Asset className={styles.avatar_item} name="david_avatar"></Asset> */}
 			</div>
 			<Spacer bottom={64}></Spacer>
 			<Button
