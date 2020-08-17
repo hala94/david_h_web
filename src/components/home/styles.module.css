@@ -12,7 +12,20 @@
 
 .headline_item {
 	grid-column: 2 / 12;
+	position: relative;
 }
+
+/* .headline_text {
+	content: '';
+		position: absolute;
+		background-color: black;
+		height: 40%;
+		width: 50%;
+		top: 0%;
+		left: 0%;
+	mix-blend-mode: difference;
+	filter: invert(1);
+} */
 
 .avatar_container {
 	display: grid;

@@ -21,7 +21,7 @@ export function Home() {
 			<Spacer top={120}></Spacer>
 			<div className={styles.headline_container}>
 				<div className={styles.headline_item}>
-					<Font fontType={FontType.headline1}>hello, I'm david halapir</Font>
+					<Font className={styles.headline_text} fontType={FontType.headline1}>hello, I'm david halapir</Font>
 					<Spacer top={10}></Spacer>
 					<Font fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
 				</div>
