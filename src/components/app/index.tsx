@@ -38,7 +38,7 @@ export function App() {
 	return (
 		<div className={styles.container}>
 			<div
-				className={`${styles.slanted_background} ${styles.background_animation}`}
+			// className={`${styles.slanted_background} ${styles.background_animation}`}
 			></div>
 			<div className={styles.content_container}>
 				<Spacer top={32}></Spacer>
