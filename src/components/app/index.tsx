@@ -6,6 +6,7 @@ import { Technologies } from 'components/technologies';
 import React, { useState } from 'react';
 import styles from './styles.module.css';
 import { Spacer } from 'helpers/spacer';
+import { Asset } from 'helpers/asset';
 
 // Ovo poboljsat
 export enum Routes {
@@ -60,6 +61,9 @@ export function App() {
 					></NavigationItem>
 				</NavigationBar>
 				<Selection></Selection>
+				<div className={styles.footer}>
+					{/* <Asset className={styles.avatar_item} name="david_avatar"></Asset> */}
+				</div>
 			</div>
 		</div>
 	);

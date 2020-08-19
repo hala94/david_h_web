@@ -5,6 +5,12 @@
 	cursor: default;
 }
 
+.container {
+	/* filter: drop-shadow(0px 25px 3.5px hsla(0, 100%, 30%, 0.2));
+	-webkit-filter: drop-shadow(0px 25px 3.5px hsla(0, 100%, 30%, 0.2)); */
+	display: block;
+}
+
 @media only screen and (min-width: 600px) {
 	.technology_item {
 		transition: 0.4s ease all;
