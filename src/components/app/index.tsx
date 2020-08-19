@@ -20,7 +20,7 @@ export const routes = {
 };
 
 export function App() {
-	const [route, setRoute] = useState<Routes>(Routes.Career);
+	const [route, setRoute] = useState<Routes>(Routes.Home);
 
 	const didSelectNavBarItem = (route: Routes) => {
 		setRoute(route);
