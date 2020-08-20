@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 import { Font, FontType } from 'helpers/fonts';
-import { Spacer } from 'helpers/spacer';
+import { Spacer, SpaceValue } from 'helpers/spacer';
 
 const languages = [
 	'react',
@@ -15,7 +15,7 @@ const languages = [
 export function Technologies() {
 	return (
 		<div className={styles.container}>
-			<Spacer top={120}></Spacer>
+			<Spacer v={SpaceValue.xl}></Spacer>
 			{languages.map((itemName) => {
 				return (
 					<Font

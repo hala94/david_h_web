@@ -5,7 +5,7 @@ import { NavigationItem } from 'components/navigationItem';
 import { Technologies } from 'components/technologies';
 import React, { useState } from 'react';
 import styles from './styles.module.css';
-import { Spacer } from 'helpers/spacer';
+import { Spacer, SpaceValue } from 'helpers/spacer';
 import { Asset } from 'helpers/asset';
 
 // Ovo poboljsat
@@ -42,7 +42,7 @@ export function App() {
 			// className={`${styles.slanted_background} ${styles.background_animation}`}
 			></div>
 			<div className={styles.content_container}>
-				<Spacer top={32}></Spacer>
+				<Spacer v={SpaceValue.m}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>
 					<NavigationItem
 						className={styles.nav_item}
