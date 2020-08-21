@@ -22,13 +22,14 @@ export function Home() {
 				</div>
 			</div>
 			<Spacer v={SpaceValue.l}></Spacer>
-			<div className={styles.avatar_container}>
+			{/* <div className={styles.avatar_container}>
 				<Asset className={styles.avatar_item} name="david_avatar"></Asset>
-			</div>
+			</div> */}
+			<Asset className={styles.avatar_item} name="david_avatar"></Asset>
 			<Spacer v={SpaceValue.l}></Spacer>
 			<Button
 				className={styles.button_item}
-				title="lets talk"
+				title="LETS TALK"
 				onClick={letsTalkHandler}
 			></Button>
 			<Spacer v={SpaceValue.xl}></Spacer>

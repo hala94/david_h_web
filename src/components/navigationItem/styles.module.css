@@ -9,6 +9,10 @@
 	/* -webkit-tap-highlight-color: transparent; */
 }
 
+.nav_title {
+	color: #B29696;
+}
+
 .navigation_item:focus {
 	outline: none;
 }
@@ -21,13 +25,13 @@
 		width: 0%;
 		left: 10px; /* this corresponds to button padding locked to 10px in style */
 		right: 0%;
-		background-color: coral;
+		background-color: #4057AC;
 		transition: 0.2s ease all;
 		bottom: 10%;
 	}
 
 	.navigation_item:hover .nav_title {
-		color: black;
+		color: #F0E4E4;
 		transition: 0.3s ease all;
 	}
 

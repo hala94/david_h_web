@@ -2,10 +2,12 @@
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	align-items: center;
 	height: 100%;
 }
 
 .headline_container {
+	align-self: stretch;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }
@@ -15,6 +17,9 @@
 	position: relative;
 }
 
+.headline_text {
+	color: #f3d9d9;
+}
 /* .headline_text {
 	content: '';
 		position: absolute;
@@ -34,15 +39,18 @@
 
 .avatar_item {
 	max-height: 396px;
+	max-width: 300px;
 	object-fit: cover;
-	grid-column: 6 / 10;
+	/* grid-column: 6 / 10; */
 }
 
 .button_item {
 	display: inline-block;
-	padding: 20px 30px;
-	background-color: black;
-	border: none;
+	padding: 1.5rem 4rem;
+	box-sizing: content-box;
+	background-color: transparent;
+	border: solid 2px;
+	border-color: #979797;
 	align-self: center;
 	outline: none;
 	cursor: pointer;
