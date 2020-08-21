@@ -38,9 +38,6 @@ export function App() {
 
 	return (
 		<div className={styles.container}>
-			<div
-			// className={`${styles.slanted_background} ${styles.background_animation}`}
-			></div>
 			<div className={styles.content_container}>
 				<Spacer v={SpaceValue.m}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>
@@ -61,9 +58,6 @@ export function App() {
 					></NavigationItem>
 				</NavigationBar>
 				<Selection></Selection>
-				<div className={styles.footer}>
-					{/* <Asset className={styles.avatar_item} name="david_avatar"></Asset> */}
-				</div>
 			</div>
 		</div>
 	);
