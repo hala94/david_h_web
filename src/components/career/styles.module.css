@@ -18,31 +18,12 @@
 	margin-bottom: 20px;
 	position: relative;
 	transition: 0.3s ease all;
+	color: var(--color-smokeWhite);
 }
 
 @media only screen and (min-width: 600px) {
 	.career_item:hover {
 		transition: 0.3s ease all;
-		transform: translateX(3%) scale(1.05) scaleZ(1);
-		/* padding: 32px; */
+		transform: translateX(1%) scale(1.01) scaleZ(1);
 	}
 }
-
-/* .career_item::before {
-	content: '';
-	position: absolute;
-	height: 100%;
-    width: 200%;
-    background-color: #0e4455;
-	top: 0%;
-	left: 0%;
-    transform: translateX(-200%);
-    transition: 5s ease all;
-    border-radius: 999em;
-    z-index: -4;
-}
-
-.career_item:hover::before {
-    transform: translateX(-50%);
-    transition: 2.0s ease all;
-} */

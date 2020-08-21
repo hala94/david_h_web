@@ -3,6 +3,7 @@
 	padding: 16px;
 	text-align: center;
 	cursor: default;
+	color: var(--color-smokeWhite);
 }
 
 .container {

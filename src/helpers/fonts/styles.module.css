@@ -16,7 +16,6 @@
 	letter-spacing: 0.4rem;
 	font-weight: medium;
 	line-height: 1.5;
-	color: #ada4a4;
 }
 
 .navItem {
@@ -27,7 +26,6 @@
 	letter-spacing: 0.2rem;
 	font-weight: 400;
 	line-height: 0.88;
-	color: #ada4a4;
 }
 
 .techItem {
@@ -38,7 +36,6 @@
 	letter-spacing: 8px;
 	font-weight: 400;
 	line-height: 0.88;
-	color: #f3d9d9;
 }
 
 .careerItem {
@@ -49,7 +46,6 @@
 	letter-spacing: 4px;
 	font-weight: 400;
 	line-height: 1.6;
-	color: #f3d9d9;
 }
 
 .buttonItem {
@@ -60,5 +56,4 @@
 	letter-spacing: 0.4rem;
 	font-weight: 400;
 	line-height: 0.6;
-	color: white;
 }

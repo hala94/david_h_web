@@ -5,12 +5,11 @@
 	background: none;
 	position: relative; /* enables the absolute positioning of the underline element */
 	overflow: hidden; /* crops the underline element to bounds of the button */
-
 	/* -webkit-tap-highlight-color: transparent; */
 }
 
 .nav_title {
-	color: #B29696;
+	color: var(--color-lightGray);
 }
 
 .navigation_item:focus {
@@ -25,13 +24,13 @@
 		width: 0%;
 		left: 10px; /* this corresponds to button padding locked to 10px in style */
 		right: 0%;
-		background-color: #4057AC;
+		background-color: var(--color-deepBlue);
 		transition: 0.2s ease all;
 		bottom: 10%;
 	}
 
 	.navigation_item:hover .nav_title {
-		color: #F0E4E4;
+		color: var(--color-smokeWhite);
 		transition: 0.3s ease all;
 	}
 

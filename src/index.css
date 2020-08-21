@@ -1,13 +1,4 @@
-body {
-	margin: 0;
-	font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
-	-moz-osx-font-smoothing: grayscale;
-	overflow-x: hidden;
-	position: relative;
-	background-color: #221C1C;
-}
-
-/*these can also be relative to the browser font size*/
+/*TODO  -introduce unit relative to screen size or rem*/
 :root {
 	--space-xxs: 4px;
 	--space-xs: 8px;
@@ -18,6 +9,26 @@ body {
 	--space-xxl: 256px;
 }
 
+:root {
+	--color-darkGray: #221c1c;
+	--color-smokeWhite: #d9f3dc;
+	--color-lightGray: #ada4a4;
+	--color-deepBlue: #4057AC;
+}
+
+#root {
+	min-height: 100vh;
+	width: 100vw;
+}
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	position: relative;
+	background-color: var(--color-darkGray);
+}
 
 button {
 	font-family: inherit;
@@ -33,19 +44,4 @@ p {
 	margin-block-end: 0px;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
-}
-
-#root {
-	min-height: 100vh;
-	width: 100vw;
-}
-
-#portal-root {
-	min-height: 100vh;
-	width: 100vw;
-	overflow: hidden;
-	position: absolute;
-	top: 0%;
-	bottom: 0%;
-	left: 0%;
 }

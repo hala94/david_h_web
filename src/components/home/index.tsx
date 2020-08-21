@@ -18,7 +18,7 @@ export function Home() {
 						hello, I'm david halapir
 					</Font>
 					<Spacer v={SpaceValue.xs}></Spacer>
-					<Font fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
+					<Font className={styles.subHeadline_text} fontType={FontType.headline2}>MOBILE & FRONTEND DEVELOPER</Font>
 				</div>
 			</div>
 			<Spacer v={SpaceValue.l}></Spacer>
