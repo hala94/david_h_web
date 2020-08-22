@@ -11,6 +11,7 @@ export function Home() {
 	};
 	return (
 		<div className={styles.container}>
+			<Spacer v={SpaceValue.l}></Spacer>
 			<div className={styles.headline_container}>
 				<div className={styles.headline_item}>
 					<Font className={styles.headline_text} fontType={FontType.headline1}>
@@ -33,6 +34,7 @@ export function Home() {
 					LETS TALK
 				</Font>
 			</Button>
+			<Spacer v={SpaceValue.l}></Spacer>
 		</div>
 	);
 }

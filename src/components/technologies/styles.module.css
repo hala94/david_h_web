@@ -1,14 +1,15 @@
 .technology_item {
-	margin: var(--space-m);
+	margin: 1.2em;
 	text-align: center;
 	cursor: default;
 	color: var(--color-smokeWhite);
 }
 
 .container {
-	/* filter: drop-shadow(0px 25px 3.5px hsla(0, 100%, 30%, 0.2));
-	-webkit-filter: drop-shadow(0px 25px 3.5px hsla(0, 100%, 30%, 0.2)); */
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
 }
 
 @media only screen and (min-width: 600px) {

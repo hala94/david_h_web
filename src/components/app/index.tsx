@@ -42,7 +42,7 @@ export function App() {
 	const Selection = () => {
 		const Component = routes[route] as () => JSX.Element;
 		return (
-			<div className={styles.fadeIn}>
+			<div className={`${styles.inner_content_container} ${styles.fadeIn}`}>
 				<Component></Component>
 			</div>
 		);
@@ -69,9 +69,7 @@ export function App() {
 						onClick={didSelectNavBarItem}
 					></NavigationItem>
 				</NavigationBar>
-				<Spacer v={SpaceValue.l}></Spacer>
 				<Selection></Selection>
-				<Spacer v={SpaceValue.l}></Spacer>
 			</div>
 		</div>
 	);

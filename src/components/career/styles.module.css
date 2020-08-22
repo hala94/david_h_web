@@ -1,13 +1,10 @@
 .container {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	height: 100%;
+	display: block;
 }
 
 .career_item {
 	text-align: left;
-	margin: var(--space-s);
+	margin: var(--space-m);
 	position: relative;
 	transition: 0.3s ease all;
 	color: var(--color-smokeWhite);
