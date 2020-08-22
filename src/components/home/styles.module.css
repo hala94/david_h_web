@@ -19,10 +19,12 @@
 
 .headline_text {
 	color: var(--color-smokeWhite);
+	cursor: default;
 }
 
 .subHeadline_text {
 	color: var(--color-lightGray);
+	cursor: default;
 }
 
 .avatar_container {

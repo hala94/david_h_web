@@ -27,6 +27,7 @@ Stretches the available area below the navigation bar to fill the available scre
 
 .nav_button {
 	padding: 1em;
+	cursor: pointer;
 }
 
 /* .column_container {

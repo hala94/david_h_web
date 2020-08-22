@@ -13,6 +13,7 @@
 /* ---- Colors ---- */
 :root {
 	--color-darkGray: #221c1c;
+	--color-easyBlack: #0c0b0b;
 	--color-smokeWhite: #d9f3dc;
 	--color-lightGray: #ada4a4;
 	--color-deepBlue: #f1154c;
@@ -39,7 +40,7 @@
 }
 
 :root {
-	--transition-duration: 0.2s;
+	--transition-duration: 0.25s;
 }
 
 #root {
@@ -54,8 +55,35 @@ body {
 	/* position: relative; */
 	font-family: var(--font-primary);
 	font-size: var(--text-base-size);
-	background-color: var(--color-darkGray);
-	-webkit-text-size-adjust:none;
+	background-color: var(--color-easyBlack);
+}
+
+body::after {
+	content: "";
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: -50;
+	background-color: var(--color-easyBlack);
+	background: -moz-linear-gradient(
+		160deg,
+		var(--color-easyBlack) 0%,
+		var(--color-darkGray) 100%
+	);
+	background: -webkit-linear-gradient(
+		160deg,
+		var(--color-easyBlack) 0%,
+		var(--color-darkGray) 100%
+	);
+	background: linear-gradient(
+		160deg,
+		var(--color-easyBlack) 0%,
+		var(--color-darkGray) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0b0b",endColorstr="#221c1c",GradientType=1);
+	background-attachment: fixed;
 }
 
 input,
