@@ -27,7 +27,7 @@
 		left: 0%;
 		right: 0%;
 		bottom: -30%;
-		background-color: var(--color-deepBlue);
+		background-color: var(--color-mainAccent);
 		transition: var(--transition-duration) ease all;
 	}
 

@@ -44,7 +44,7 @@
 	box-sizing: content-box;
 	background-color: transparent;
 	border: solid 2px;
-	border-color: var(--color-lightGray);
+	border-color: var(--color-mainAccent);
 	align-self: center;
 	outline: none;
 	cursor: pointer;
