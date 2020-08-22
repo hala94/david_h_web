@@ -6,7 +6,19 @@ import { Technologies } from 'components/technologies';
 import React, { useState } from 'react';
 import styles from './styles.module.css';
 import { Spacer, SpaceValue } from 'helpers/spacer';
-import { Asset } from 'helpers/asset';
+
+/*
+todo
+font size adaptive, like spacings
+consistent spacing across all elements
+
+consistent animation time
+
+linear gradient to black-optional paralax
+experiment with accent color, use spacers with accent in a smart way
+
+meta information + logo
+*/
 
 // Ovo poboljsat
 export enum Routes {
@@ -42,17 +54,17 @@ export function App() {
 				<Spacer v={SpaceValue.m}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>
 					<NavigationItem
-						className={styles.nav_item}
+						className={styles.nav_button}
 						title={Routes.Home}
 						onClick={didSelectNavBarItem}
 					></NavigationItem>
 					<NavigationItem
-						className={styles.nav_item}
+						className={styles.nav_button}
 						title={Routes.Technologies}
 						onClick={didSelectNavBarItem}
 					></NavigationItem>
 					<NavigationItem
-						className={styles.nav_item}
+						className={styles.nav_button}
 						title={Routes.Career}
 						onClick={didSelectNavBarItem}
 					></NavigationItem>

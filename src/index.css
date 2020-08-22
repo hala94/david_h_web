@@ -1,4 +1,4 @@
-/*TODO  -introduce unit relative to screen size or rem*/
+/* ---- Spacings ---- */
 :root {
 	--space-xxs: 4px;
 	--space-xs: 8px;
@@ -9,11 +9,32 @@
 	--space-xxl: 256px;
 }
 
+/* ---- Colors ---- */
 :root {
 	--color-darkGray: #221c1c;
 	--color-smokeWhite: #d9f3dc;
 	--color-lightGray: #ada4a4;
-	--color-deepBlue: #4057AC;
+	--color-deepBlue: #4057ac;
+}
+
+/* ---- Typography ---- */
+:root {
+	--text-base-size: calc(1em + 0.3vw);
+	--text-base-line-height: 1.1;
+
+	--font-primary: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
+	--text-scale-ratio: 1.2;
+
+	--text-xs: calc((1em / var(--text-scale-ratio)) / var(--text-scale-ratio));
+	--text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+	--text-md: calc(
+		var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio)
+	);
+	--text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+	--text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+	--text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+	--text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+	--text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
 }
 
 #root {
@@ -23,25 +44,27 @@
 
 body {
 	margin: 0;
-	font-family: 'Montserrat', sans-serif, -apple-system, BlinkMacSystemFont;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
-	position: relative;
+	/* position: relative; */
+	font-family: var(--font-primary);
+	font-size: var(--text-base-size);
 	background-color: var(--color-darkGray);
 }
 
+input,
+select,
+textarea,
 button {
 	font-family: inherit;
+}
+
+p {
+	margin: 0;
+	line-height: var(--text-base-line-height);
 }
 
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 		monospace;
-}
-
-p {
-	margin-block-start: 0px;
-	margin-block-end: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
 }

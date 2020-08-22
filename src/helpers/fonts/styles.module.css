@@ -1,59 +1,35 @@
 .headline1 {
-	font-size: calc(2rem + 1.4vw);
-	font-style: regular;
-	font-stretch: normal;
-	font-style: normal;
+	font-size: var(--text-xxxxl);
 	letter-spacing: normal;
-	font-weight: bold;
-	line-height: 1.23;
+	font-weight: 600;
 }
 
 .headline2 {
-	font-size: calc(0.7rem + 0.35vw);
-	font-style: normal;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 0.4rem;
-	font-weight: medium;
-	line-height: 1.5;
+	font-size: var(--text-sm);
+	letter-spacing: 0.45em;
+	font-weight: 400;
 }
 
 .navItem {
-	font-size: calc(0.7rem + 0.2vw);
-	font-style: normal;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 0.2rem;
+	font-size: var(--text-md);
+	letter-spacing: 0.3em;
 	font-weight: 400;
-	line-height: 0.88;
 }
 
 .techItem {
-	font-size: calc(1rem + 0.4vw);
-	font-style: normal;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 8px;
+	font-size: var(--text-md);
+	letter-spacing: 0.4em;
 	font-weight: 400;
-	line-height: 0.88;
 }
 
 .careerItem {
-	font-size: calc(1rem + 0.4vw);
-	font-style: normal;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 4px;
+	font-size: var(--text-md);
+	letter-spacing: 0.2em;
 	font-weight: 400;
-	line-height: 1.6;
 }
 
 .buttonItem {
-	font-size: calc(0.7rem + 0.2vw);
-	font-style: normal;
-	font-stretch: normal;
-	font-style: normal;
-	letter-spacing: 0.4rem;
+	font-size: var(--text-md);
+	letter-spacing: 0.4em;
 	font-weight: 400;
-	line-height: 0.6;
 }

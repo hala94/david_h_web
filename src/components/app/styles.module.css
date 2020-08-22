@@ -19,13 +19,12 @@
 
 .navigation_bar {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-end;
 }
 
-.nav_item {
+.nav_button {
 	padding: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
 }
 
 /* .column_container {
@@ -92,6 +91,11 @@
 
 	.navigation_bar {
 		justify-content: center;
+	}
+
+	.nav_item {
+		flex-grow: 1;
+		flex-basis: 20%;
 	}
 
 	:root {
