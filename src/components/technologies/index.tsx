@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
 import { Font, FontType } from 'helpers/fonts';
-import { Spacer, SpaceValue } from 'helpers/spacer';
 
 const languages = [
 	'react',

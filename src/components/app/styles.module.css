@@ -5,10 +5,6 @@
 	min-height: 100vh;
 }
 
-:root {
-	--animation_background_size: 100%;
-}
-
 .content_container {
 	display: flex;
 	flex-direction: column;
@@ -30,7 +26,7 @@ Stretches the available area below the navigation bar to fill the available scre
 }
 
 .nav_button {
-	padding: 10px;
+	padding: 1em;
 }
 
 /* .column_container {
@@ -72,16 +68,19 @@ Stretches the available area below the navigation bar to fill the available scre
 @keyframes fadeIn {
 	from {
 		opacity: 0;
+		transform: translateX(-1%);
 	}
 	to {
 		opacity: 1;
+		transform: translateX(1);
 	}
 }
 
 .fadeIn {
-	animation-duration: 0.25s;
+	animation-duration: var(--transition-duration);
 	animation-fill-mode: forwards;
 	opacity: 0;
+	transform: translateX(1);
 	animation-name: fadeIn;
 	animation-timing-function: ease-in-out;
 }
@@ -102,10 +101,6 @@ Stretches the available area below the navigation bar to fill the available scre
 	.nav_item {
 		flex-grow: 1;
 		flex-basis: 20%;
-	}
-
-	:root {
-		--animation_background_size: 200%;
 	}
 }
 

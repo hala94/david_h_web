@@ -6,13 +6,13 @@
 	text-align: left;
 	margin: var(--space-m);
 	position: relative;
-	transition: 0.3s ease all;
+	transition: var(--transition-duration) ease all;
 	color: var(--color-smokeWhite);
 }
 
 @media only screen and (min-width: 600px) {
 	.career_item:hover {
-		transition: 0.3s ease all;
+		transition: var(--transition-duration) ease all;
 		transform: translateX(1%) scale(1.01) scaleZ(1);
 	}
 }

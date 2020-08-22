@@ -46,7 +46,7 @@
 	align-self: center;
 	outline: none;
 	cursor: pointer;
-	transition: 0.2s ease all;
+	transition: var(--transition-duration) ease all;
 	color: var(--color-smokeWhite);
 }
 
@@ -56,7 +56,7 @@
 
 .button_item:hover {
 	transform: scale(0.95);
-	transition: 0.2s ease all;
+	transition: var(--transition-duration) ease all;
 }
 
 @media only screen and (max-width: 600px) {

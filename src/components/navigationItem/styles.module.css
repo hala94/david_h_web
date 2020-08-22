@@ -28,16 +28,16 @@
 		right: 0%;
 		bottom: -30%;
 		background-color: var(--color-deepBlue);
-		transition: 0.3s ease all;
+		transition: var(--transition-duration) ease all;
 	}
 
 	.navigation_button:hover .nav_title {
 		color: var(--color-smokeWhite);
-		transition: 0.3s ease all;
+		transition: var(--transition-duration) ease all;
 	}
 
 	.navigation_button:hover .nav_title::before {
 		width: 105%;
-		transition: 0.3s ease all;
+		transition: var(--transition-duration) ease all;
 	}
 }

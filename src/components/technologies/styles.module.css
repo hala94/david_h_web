@@ -14,10 +14,10 @@
 
 @media only screen and (min-width: 600px) {
 	.technology_item {
-		transition: 0.4s ease all;
+		transition: var(--transition-duration) ease all;
 	}
 	.technology_item:hover {
 		letter-spacing: 16px;
-		transition: 0.2s ease all;
+		transition: var(--transition-duration) ease all;
 	}
 }

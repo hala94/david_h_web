@@ -15,7 +15,7 @@
 	--color-darkGray: #221c1c;
 	--color-smokeWhite: #d9f3dc;
 	--color-lightGray: #ada4a4;
-	--color-deepBlue: #4057ac;
+	--color-deepBlue: #f1154c;
 }
 
 /* ---- Typography ---- */
@@ -36,6 +36,10 @@
 	--text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
 	--text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
 	--text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
+}
+
+:root {
+	--transition-duration: 0.2s;
 }
 
 #root {
