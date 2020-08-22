@@ -38,7 +38,7 @@
 
 .button_item {
 	display: inline-block;
-	padding: 1.5rem 4rem;
+	padding: 0;
 	box-sizing: content-box;
 	background-color: transparent;
 	border: solid 2px;
@@ -48,6 +48,10 @@
 	cursor: pointer;
 	transition: 0.2s ease all;
 	color: var(--color-smokeWhite);
+}
+
+.button_title {
+	padding: 1em 2.5em;
 }
 
 .button_item:hover {

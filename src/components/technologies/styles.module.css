@@ -1,6 +1,5 @@
 .technology_item {
-	margin-bottom: 20px;
-	padding: 16px;
+	margin: var(--space-m);
 	text-align: center;
 	cursor: default;
 	color: var(--color-smokeWhite);

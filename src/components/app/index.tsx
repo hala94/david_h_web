@@ -69,7 +69,9 @@ export function App() {
 						onClick={didSelectNavBarItem}
 					></NavigationItem>
 				</NavigationBar>
+				<Spacer v={SpaceValue.l}></Spacer>
 				<Selection></Selection>
+				<Spacer v={SpaceValue.l}></Spacer>
 			</div>
 		</div>
 	);

@@ -15,7 +15,6 @@ const languages = [
 export function Technologies() {
 	return (
 		<div className={styles.container}>
-			<Spacer v={SpaceValue.xl}></Spacer>
 			{languages.map((itemName) => {
 				return (
 					<Font
