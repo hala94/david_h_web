@@ -9,14 +9,6 @@ import { Spacer, SpaceValue } from 'helpers/spacer';
 
 /*
 todo
-font size adaptive, like spacings
-consistent spacing across all elements
-
-consistent animation time
-
-linear gradient to black-optional paralax
-experiment with accent color, use spacers with accent in a smart way
-
 meta information + logo
 */
 
@@ -50,6 +42,7 @@ export function App() {
 
 	return (
 		<div className={styles.container}>
+			<div className={styles.accent_background_container}></div>
 			<div className={styles.content_container}>
 				<Spacer v={SpaceValue.m}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>

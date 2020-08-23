@@ -30,42 +30,6 @@ Stretches the available area below the navigation bar to fill the available scre
 	cursor: pointer;
 }
 
-/* .column_container {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(24, 1fr);
-	column-gap: 16px;
-}
-.colored_column_container {
-	grid-column: 4 / 6;
-	grid-row: 1 / -1;
-	z-index: -1;
-	position: relative;
-}
-
-.colored_column {
-	position: absolute;
-	background-color: black;
-	width: 100%;
-	bottom: 0%;
-	height: 90%;
-	animation-duration: 1.5s;
-	animation-name: slideInFromBelow;
-	animation-timing-function: ease-in-out;
-}
-
-@keyframes slideInFromBelow {
-	0% {
-		height: 0%;
-	}
-	100% {
-		height: 90%;
-	}
-} */
-
 @keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -105,69 +69,26 @@ Stretches the available area below the navigation bar to fill the available scre
 	}
 }
 
-/* .slanted_background {
+.accent_background_container {
 	position: fixed;
 	top: 0%;
 	left: 0%;
-	bottom: 0%;
-	width: 100%;
-	background-image: linear-gradient(50deg, #0e4455 70%, white calc(70% + 1px));
-	background-size: 400%;
-	background-attachment: fixed;
-	background-position: 360% 0%;
-	z-index: -4;
-} */
-
-/* .background_animation {
-	animation: animatedBackground1 25s ease-in-out forwards;
-	animation-direction: alternate;
-	animation-iteration-count: infinite;
-}
-
-@keyframes animatedBackground1 {
-	from {
-		background-position: 360% 0%;
-	}
-	to {
-		background-position: 355% 0%;
-	}
-} */
-
-/* .animation_container {
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 100%;
 	height: 100%;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	overflow: hidden;
+	width: 100%;
 }
 
-.animation_item {
-	grid-column: 5 / 6;
-	position: relative;
-}
-
-.animation_item::before {
-	content: "";
-	padding: 0px;
-	margin: 0px;
-	position: absolute;
-	height: 10px;
-	width: 2px;
-	background-color:black;
+.accent_background_container::after {
+	content: '';
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: fixed;
+	background: linear-gradient(
+		160deg,
+		var(--color-easyBlack) 0%,
+		var(--color-mainAccent) 100%
+	);
+	z-index: -50;
 	top: 50%;
-	right: 30%;
-	transform: scaleY(10);
-	animation: scaleAnimation 5s ease-in-out 0s infinite alternate;
+	left: 10%;
 }
-
-@keyframes scaleAnimation {
-	from {
-		transform: scaleY(10);
-	}
-	to {
-		transform: scaleY(50);
-	}
-} */
