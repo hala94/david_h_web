@@ -42,7 +42,6 @@ export function App() {
 
 	return (
 		<div className={styles.container}>
-			<div className={styles.accent_background_container}></div>
 			<div className={styles.content_container}>
 				<Spacer v={SpaceValue.m}></Spacer>
 				<NavigationBar className={styles.navigation_bar}>

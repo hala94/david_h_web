@@ -52,7 +52,6 @@ body {
 	margin: 0;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
-	/* position: relative; */
 	font-family: var(--font-primary);
 	font-size: var(--text-base-size);
 	background-color: var(--color-easyBlack);
@@ -83,7 +82,6 @@ body::after {
 		var(--color-darkGray) 100%
 	);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0b0b",endColorstr="#221c1c",GradientType=1);
-	background-attachment: fixed;
 }
 
 input,
