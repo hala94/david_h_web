@@ -7,12 +7,6 @@ import React, { useState } from 'react';
 import styles from './styles.module.css';
 import { Spacer, SpaceValue } from 'helpers/spacer';
 
-/*
-todo
-meta information + logo
-*/
-
-// Ovo poboljsat
 export enum Routes {
 	Home = 'Home',
 	Technologies = 'Technologies',
