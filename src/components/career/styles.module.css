@@ -17,3 +17,47 @@
 		transform: translateX(1%) scale(1.01) scaleZ(1);
 	}
 }
+
+
+.github_button {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+	transition: var(--transition-duration) ease all;
+	outline: none;
+}
+
+.github_logo {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	max-width: 40px;
+	max-height: 40px;
+	cursor: pointer;
+	filter: invert(89%) sepia(3%) saturate(1662%) hue-rotate(75deg)
+		brightness(110%) contrast(91%);
+}
+
+.banner_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0%;
+	left: 0%;
+	padding: 1em;
+	/* background: linear-gradient(
+		160deg,
+		var(--color-easyBlack) 0%,
+		var(--color-darkGray) 100%
+	); */
+	background: transparent;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+	.github_button:hover {
+		transform: scale(1.1);
+		transition: var(--transition-duration) ease all;
+	}
+}
