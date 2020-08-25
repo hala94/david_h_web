@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/david_h_web/static/css/main.c07c2afe.chunk.css",
+    "main.js": "/david_h_web/static/js/main.4a1f20fc.chunk.js",
+    "main.js.map": "/david_h_web/static/js/main.4a1f20fc.chunk.js.map",
+    "runtime-main.js": "/david_h_web/static/js/runtime-main.82366995.js",
+    "runtime-main.js.map": "/david_h_web/static/js/runtime-main.82366995.js.map",
+    "static/js/2.cb2c56ff.chunk.js": "/david_h_web/static/js/2.cb2c56ff.chunk.js",
+    "static/js/2.cb2c56ff.chunk.js.map": "/david_h_web/static/js/2.cb2c56ff.chunk.js.map",
+    "static/js/3.de5d6bae.chunk.js": "/david_h_web/static/js/3.de5d6bae.chunk.js",
+    "static/js/3.de5d6bae.chunk.js.map": "/david_h_web/static/js/3.de5d6bae.chunk.js.map",
+    "static/js/4.8e79bf7c.chunk.js": "/david_h_web/static/js/4.8e79bf7c.chunk.js",
+    "static/js/4.8e79bf7c.chunk.js.map": "/david_h_web/static/js/4.8e79bf7c.chunk.js.map",
+    "index.html": "/david_h_web/index.html",
+    "precache-manifest.464b9bd1250b9fe4cf4f99d4eb156ee9.js": "/david_h_web/precache-manifest.464b9bd1250b9fe4cf4f99d4eb156ee9.js",
+    "service-worker.js": "/david_h_web/service-worker.js",
+    "static/css/main.c07c2afe.chunk.css.map": "/david_h_web/static/css/main.c07c2afe.chunk.css.map",
+    "static/js/2.cb2c56ff.chunk.js.LICENSE.txt": "/david_h_web/static/js/2.cb2c56ff.chunk.js.LICENSE.txt",
+    "static/media/david_avatar.png": "/david_h_web/static/media/david_avatar.97abcf71.png",
+    "static/media/github.png": "/david_h_web/static/media/github.9ce68bca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82366995.js",
+    "static/js/2.cb2c56ff.chunk.js",
+    "static/css/main.c07c2afe.chunk.css",
+    "static/js/main.4a1f20fc.chunk.js"
+  ]
+}
