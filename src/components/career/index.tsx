@@ -4,6 +4,7 @@ import { Font, FontType } from 'helpers/fonts';
 import { Spacer, SpaceValue } from 'helpers/spacer';
 import { Button } from 'components/button';
 import { Asset } from 'helpers/asset';
+import { Link } from 'components/link';
 
 export function Carrer() {
 	return (
@@ -21,9 +22,11 @@ export function Carrer() {
 			</Font>
 			<Spacer v={SpaceValue.m}></Spacer>
 			<div className={styles.banner_container}>
-				<Button className={styles.github_button}>
-					<Asset className={styles.github_logo} name="github"></Asset>
-				</Button>
+				<Link url="https://github.com/hala94/david_h_web">
+					<Button className={styles.github_button}>
+						<Asset className={styles.github_logo} name="github"></Asset>
+					</Button>
+				</Link>
 			</div>
 		</div>
 	);
